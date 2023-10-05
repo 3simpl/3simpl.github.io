@@ -88,12 +88,16 @@ p{
 }
 
 a{
-	color: inherit;
-	
+
+	animation-name: spananim;
+	animation-duration: 10s;
+	animation-timing-function: bounce;
+	animation-iteration-count: infinite;
+	font-weight: 700;
 }
 
 a:hover{
-	font-weight: 700;
+	font-weight: 900;
 }
 
 
