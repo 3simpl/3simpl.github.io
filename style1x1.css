@@ -87,6 +87,15 @@ p{
 	animation-iteration-count: infinite;
 }
 
+a{
+	color: inherit;
+	
+}
+
+a:hover{
+	font-weight: 700;
+}
+
 
 @keyframes onloaded {
   0% {opacity: 0;
