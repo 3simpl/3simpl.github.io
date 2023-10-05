@@ -1,0 +1,113 @@
+html{
+	margin:0px;
+	padding: 0px;
+	width:100%;
+
+	text-align: center;
+	color: white;
+	background: linear-gradient(140deg, grey, lightblue, darkseagreen) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	animation-name: pagein;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+
+}
+body{
+	margin:0px;
+	padding: 0px;
+	width:100%;
+	height: 100%;
+}
+
+h1{
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px;
+	width: 75%;
+	font-family: Montserrat, sans-serif;
+	font-weight: 100;
+	letter-spacing: 2px;
+	background-image: linear-gradient(140deg, darkgrey, darkseagreen);
+	border-radius: 10px;
+	border: 2px solid white;
+}
+
+h2{
+	font-size: 15px;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px;
+	width: 60%;
+	font-family: Montserrat, sans-serif;
+	font-weight: normal;
+	letter-spacing: 2px;
+	background-image: linear-gradient(-140deg, darkgrey, darkseagreen);
+	border-radius: 10px;
+	border: 2px solid white;
+}
+.textholder{
+
+	animation-name: onloaded;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+p{
+	
+	animation-name: onloaded;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	font-size: 100%;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px;
+	width: 60%;
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 2px;
+}
+
+.spanan{
+	animation-name: spananim;
+	animation-duration: 10s;
+	animation-timing-function: bounce;
+	animation-iteration-count: infinite;
+	font-weight: 700;
+	
+}
+#big{
+	font-weight: 700;
+}
+#notext{
+	animation-name: noanim;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes onloaded {
+  0% {opacity: 0;
+	margin-top: 10px;}
+  100% {opacity: 1;
+	margin-top: 50px;}
+}
+
+@keyframes pagein {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes spananim{
+  0% {color: darkgray;}
+  50%{color: darkseagreen;}
+  100%{color: darkgray;}
+}
+
+@keyframes noanim{
+  0% {color: darkgray;}
+  50%{color: firebrick;}
+  100%{color: darkgray;}
+}
