@@ -168,7 +168,7 @@ footer{
 	border-radius: 10px;
 	
 	border-collapse: collapse;
-	min-width: 400px;
+	min-width: 300px;
 	
 }
 
@@ -213,7 +213,7 @@ th{
 	border-radius: 10px;
 	border: 1px solid white;
 	border-collapse: collapse;
-	min-width: 405px;
+	min-width: 305px;
 }
 
 
